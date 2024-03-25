@@ -1,7 +1,7 @@
 import mongoose from "mongoose";
 const connectDb = async () => {
   try {
-    const MOGNO_URL = "mongodb+srv://igsahilsayyad:9325@real-time-chat-app.q5bdt8q.mongodb.net/?retryWrites=true&w=majority";
+    const MOGNO_URL = "";
     await mongoose.connect(MOGNO_URL);
     console.log(`MongoDb connected`);
   } catch (error) {
